@@ -895,7 +895,7 @@ int counttotalDepHO=0;
 										if (((batchSize % PulseRate) < a * (i + 1)) && ((batchSize % PulseRate) >= a * i)) {
 												if(deltaWeight2[jj][k]>0){
 													counttotalPotenHO +=1;
-								if(static_cast<AnalogNVM*>(arrayHO->cell[jj][k])->conductanceN[i] == static_cast<AnalogNVM*>(arrayHO->cell[jj][k])->maxConductance){
+									if(static_cast<AnalogNVM*>(arrayHO->cell[jj][k])->conductanceN[i] == static_cast<AnalogNVM*>(arrayHO->cell[jj][k])->maxConductance){
 											// countPoten add
 
 											countPotenHO += 1;
